@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using UnityEngine;
 
 public class entityTileset : MonoBehaviour
@@ -14,6 +15,16 @@ public class entityTileset : MonoBehaviour
         dir = newDir;
         anim.SetFloat("dirX", dir.x);
         anim.SetFloat("dirY", dir.y);
+    }
+
+    public void setBool(string paramName, bool val)
+    {
+        anim.SetBool(paramName, val);
+    }
+
+    public void setFloat(string paramName, float val)
+    {
+        anim.SetFloat(paramName, val);
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
