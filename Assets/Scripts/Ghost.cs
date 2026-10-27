@@ -26,7 +26,6 @@ public class Ghost : MonoBehaviour
     void Update()
     {
         timer += Time.deltaTime;
-        Debug.Log(timer);
         if (timer >= 0.5f)
         {
             child.setDirection(dirs[index]);
