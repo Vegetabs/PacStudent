@@ -55,6 +55,7 @@ GameObject:
   - component: {fileID: 7375233441568563804}
   - component: {fileID: 8367490827057904659}
   - component: {fileID: 2133773823946045951}
+  - component: {fileID: 8669662441132800656}
   m_Layer: 0
   m_Name: PacStudent
   m_TagString: Untagged
@@ -189,6 +190,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &8669662441132800656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2516258792574327923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e075bc5e09761ad4e874780666f51904, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LevelMap
+  rows: 30
+  cols: 28
 --- !u!1 &7552830830342227694
 GameObject:
   m_ObjectHideFlags: 0
