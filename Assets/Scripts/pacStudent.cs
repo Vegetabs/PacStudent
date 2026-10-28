@@ -29,7 +29,6 @@ public class pacStudent : MonoBehaviour
         index = 0;
         curPos = startPos;
         transform.position = tileToWorld(curPos);
-        Debug.Log(grid.WorldToCell(transform.position));
     }
 
     void Update()
